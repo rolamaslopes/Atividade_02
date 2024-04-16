@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color:  rgb(101, 219, 54);
+        }
+
+        h1 {
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        #quiz-container {
+            background-color: rgb(245, 245, 159);
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin: 1rem auto;
+            padding: 10px;
+            height: 21rem;
+            width: 25rem;
+            border: 2px solid black;
+            border-radius: 15px;
+        }
+
+       
+
+        
+
+        button{
+            display: flex;
+            margin: 0 auto;
+            font-size: 2rem;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Quiz - Banco de Dados</h1>
+
+    <div id="quiz-container">
+        <h2>O Qual dos seguintes não é um tipo de banco de dados? </h2>
+        <p> <input type="radio" name="resp" id="a">A- Relacional </p>
+        <p> <input type="radio" name="resp" id="b">B- Não relacional </p>
+        <p> <input type="radio" name="resp" id="c">C- Bidirecional </p>
+        <p> <input type="radio" name="resp" id="d">D- Orientado a objeto </p>
+    </div>
+
+    <div id="quiz-container">
+        <h2>Qual é a linguagem de consulta padrão para a maioria dos sistemas de gerenciamento de bancos de dados relacionais?</h2>
+        <p><input type="radio" name="resposta" id="a1">A - SQL </p>
+        <p><input type="radio" name="resposta" id="b1">B - JSON </p>
+        <p><input type="radio" name="resposta" id="c1">C - Python </p>
+        <p><input type="radio" name="resposta" id="d1">D - HTML </p>
+    </div>
+
+    <div id="quiz-container">
+        <h2>Qual é a função do comando SELECT em SQL?</h2>
+        <p><input type="radio" name="rr" id="a1">A - Inserir dados em uma tabela </p>
+        <p><input type="radio" name="rr" id="b2">B -Atualizar dados em uma tabela</p>
+        <p><input type="radio" name="rr" id="b3">C - Excluir dados de uma tabela </p>
+        <p class="right"><input type="radio" name="rr" id="b4">D - Recuperar dados de uma tabela </p>
+    </div>
+
+    <div id="btn-container">
+        <button id="btn"> Enviar</button>
+    </div>
+</body>
+</html>
